@@ -4,7 +4,7 @@ int main(int argv, const char *argc[])
 {
 	@autoreleasepool {
 
-		NSString *str1 = @"On April ", *str2 = @"th, I like to turn up with Fancy Feast. Meow bitchez hashtag "; 
+		NSString *str1 = @"On April", *str2 = @"th, I like to turn up with Fancy Feast. Meow bitchez hashtag"; 
 
 		int number = 20;
 
@@ -12,11 +12,9 @@ int main(int argv, const char *argc[])
 
 		NSArray *array = [NSArray arrayWithObjects: str1, [NSNumber numberWithInteger: number], str2, number2, nil];
 
-		NSString *str = [array objectAtIndex: 0];
+		NSString *string = [array componentsJoinedByString:@" "];
 
-		NSString *string = [str stringByAppendingFormat: @"%@%@%@\n", [array objectAtIndex: 1], [array objectAtIndex: 2], [array objectAtIndex: 3]];
-
-		printf("%s", [string UTF8String]);
+		printf("%s\n", [string UTF8String]);
 	}
 
 }

@@ -13,8 +13,4 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property NSArray *names;
 
--(NSInteger) numberOfSectionsInTableView:(UITableView *)tableView;
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
-
 @end

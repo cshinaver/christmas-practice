@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad
 {
-    NSArray *names = @[@"Ryan 'Badass' Busk", @"Joe 'The Protector of Virginity' Moran", @"Ariel 'Supes Cas Not Even Comp Sci' Navotas", @"Colleen 'The lesbian...(Ryan's a girl right?)' Finley", @"Mary 'ALL CAPS' Connolly", @"John 'I am very thick, mind you' Rocha", @"Charles 'Vim' Shinaver", @"Ramzi 'God' Bualuan", @"Tijana 'Dracula' Malenkovic"];
+    _names = @[@"Ryan 'Badass' Busk", @"Joe 'The Protector of Virginity' Moran", @"Ariel 'Supes Cas Not Even Comp Sci' Navotas", @"Colleen 'The lesbian...(Ryan's a girl right?)' Finley", @"Mary 'ALL CAPS' Connolly", @"John 'I am very thick, mind you' Rocha", @"Charles 'Vim' Shinaver", @"Ramzi 'God' Bualuan", @"Tijana 'Dracula' Malenkovic"];
     
 }
 

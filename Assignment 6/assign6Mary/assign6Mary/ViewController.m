@@ -42,6 +42,8 @@
     
     cell.textLabel.text = self.names[indexPath.row];
     
+    cell.textLabel.font = [UIFont fontWithName: @"Helvetica" size: 13.0];
+    
     return cell;
 }
 

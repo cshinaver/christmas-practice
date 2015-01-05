@@ -11,11 +11,6 @@
 
 @interface ViewController : UIViewController <UITabBarDelegate, UITableViewDataSource>
 
-@property Photo *photo1;
-@property Photo *photo2;
-@property Photo *photo3;
-@property Photo *photo4;
-
 @property NSArray *photos;
 
 

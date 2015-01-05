@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.backButton setTitle: @"previous" forState: UIControlStateNormal];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +37,8 @@
 }
 */
 
+- (IBAction)goBack:(id)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

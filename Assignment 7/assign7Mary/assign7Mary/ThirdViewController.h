@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Photo.h"
 
 @interface ThirdViewController : UIViewController
+
+@property Photo *photo;
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
+- (IBAction)goBack:(id)sender;
 
 @end

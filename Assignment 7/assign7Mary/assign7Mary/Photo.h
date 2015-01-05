@@ -12,6 +12,6 @@
 
 @property NSString *name;
 @property NSString *filename;
-@property NSString *description;
+@property NSString *label;
 
 @end

@@ -16,6 +16,7 @@
 		1C4725C11A5A01B300F03202 /* assign7MaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4725C01A5A01B300F03202 /* assign7MaryTests.m */; };
 		1C4725CC1A5A035200F03202 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4725CB1A5A035200F03202 /* SecondViewController.m */; };
 		1C4725CF1A5A035C00F03202 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4725CE1A5A035C00F03202 /* ThirdViewController.m */; };
+		1C4725D21A5A15B700F03202 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4725D11A5A15B700F03202 /* Photo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		1C4725CB1A5A035200F03202 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1C4725CD1A5A035C00F03202 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		1C4725CE1A5A035C00F03202 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		1C4725D01A5A15B700F03202 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		1C4725D11A5A15B700F03202 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				1C4725A81A5A01B300F03202 /* AppDelegate.h */,
 				1C4725A91A5A01B300F03202 /* AppDelegate.m */,
 				1C4725AE1A5A01B300F03202 /* Main.storyboard */,
+				1C4725D01A5A15B700F03202 /* Photo.h */,
+				1C4725D11A5A15B700F03202 /* Photo.m */,
 				1C4725AB1A5A01B300F03202 /* ViewController.h */,
 				1C4725AC1A5A01B300F03202 /* ViewController.m */,
 				1C4725CA1A5A035200F03202 /* SecondViewController.h */,
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4725D21A5A15B700F03202 /* Photo.m in Sources */,
 				1C4725CC1A5A035200F03202 /* SecondViewController.m in Sources */,
 				1C4725CF1A5A035C00F03202 /* ThirdViewController.m in Sources */,
 				1C4725AD1A5A01B300F03202 /* ViewController.m in Sources */,

@@ -18,7 +18,23 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.pictureNames = @[@"Picture 1", @"Picture 2", @"Picture 3", @"Picture 4"];
+    self.photo1.name=@"Photo 1";
+    self.photo1.filename=@"filename1";
+    self.photo1.description=@"omg this is photo1";
+    self.photo2.name=@"Photo 2";
+    self.photo2.filename=@"filename2";
+    self.photo2.description=@"omg this is photo2";
+    self.photo3.name=@"Photo 3";
+    self.photo3.filename=@"filename3";
+    self.photo3.description=@"omg this is photo3";
+    self.photo4.name=@"Photo 4";
+    self.photo4.filename=@"filename4";
+    self.photo4.description=@"omg this is photo4";
+    
+    photos = [NSArray initWithObjects: photo1, photo2, photo3, photo4, nil];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -25,18 +25,18 @@
     
     photo1.name=@"Photo 1";
     photo1.filename=@"filename1";
-    photo1.description=@"omg this is photo1";
+    photo1.label=@"omg this is photo1";
     photo2.name=@"Photo 2";
     photo2.filename=@"filename2";
-    photo2.description=@"omg this is photo2";
+    photo2.label=@"omg this is photo2";
     photo3.name=@"Photo 3";
     photo3.filename=@"filename3";
-    photo3.description=@"omg this is photo3";
+    photo3.label=@"omg this is photo3";
     photo4.name=@"Photo 4";
     photo4.filename=@"filename4";
-    photo4.description=@"omg this is photo4";
+    photo4.label=@"omg this is photo4";
     
-    [self.photos initWithObjects: photo1, photo2, photo3, photo4, nil];
+    self.photos = [[NSArray alloc] initWithObjects: photo1, photo2, photo3, photo4, nil];
     
     
     
@@ -61,7 +61,9 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"cell" forIndexPath:indexPath];
     
-    cell.textLabel.text = self.photos[indexPath.row];
+    Photo *currentPhoto = self.photos[indexPath.row];
+    
+    cell.textLabel.text = currentPhoto.name;
     
     return cell;
 }

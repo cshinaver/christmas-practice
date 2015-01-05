@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Photo.h"
 
 @interface ThirdViewController : UIViewController
+
+@property Photo *photo;
+@property NSString *description;
 
 @end

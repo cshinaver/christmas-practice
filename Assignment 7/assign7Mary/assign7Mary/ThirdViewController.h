@@ -12,6 +12,7 @@
 @interface ThirdViewController : UIViewController
 
 @property Photo *photo;
-@property NSString *description;
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
+- (IBAction)goBack:(id)sender;
 
 @end

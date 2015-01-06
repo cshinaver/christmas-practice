@@ -38,8 +38,6 @@
     
     self.photos = [[NSArray alloc] initWithObjects: photo1, photo2, photo3, photo4, nil];
     
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -66,6 +64,13 @@
     cell.textLabel.text = currentPhoto.name;
     
     return cell;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+        SecondViewController *controller = [segue destinationViewController];
+        
+        controller.photo = [self.photos objectAtIndex: self.tableView.indexPathForSelectedRow.row];
 }
 
 @end

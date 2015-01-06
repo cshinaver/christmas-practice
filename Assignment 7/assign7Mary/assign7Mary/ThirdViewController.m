@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.photoDescription.text = self.photo.label;
+    
     [self.backButton setTitle: @"back to picture" forState: UIControlStateNormal];
 
 }

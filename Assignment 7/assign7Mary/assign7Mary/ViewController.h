@@ -13,6 +13,7 @@
 @interface ViewController : UIViewController <UITabBarDelegate, UITableViewDataSource>
 
 @property NSArray *photos;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 
 @end

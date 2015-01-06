@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Photo.h"
+#import "ThirdViewController.h"
 
 @interface SecondViewController : UIViewController
 

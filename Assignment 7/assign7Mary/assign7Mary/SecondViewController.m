@@ -26,6 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+        ThirdViewController *controller = [segue destinationViewController];
+        
+        controller.photo = self.photo;
+}
 /*
 #pragma mark - Navigation
 

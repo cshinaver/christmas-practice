@@ -14,6 +14,7 @@
 
 @property Photo *photo;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *barButton;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 
 @end

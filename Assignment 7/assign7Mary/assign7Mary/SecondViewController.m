@@ -19,6 +19,11 @@
     // Do any additional setup after loading the view.
     
     self.barButton.title = @"Description";
+    
+    UIImage *image = [UIImage imageNamed: self.photo.filename];
+    
+    [self.imageView initWithImage: image];
+    
 }
 
 - (void)didReceiveMemoryWarning {

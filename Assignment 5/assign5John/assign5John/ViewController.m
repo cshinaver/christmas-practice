@@ -24,4 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)sayThanks:(id)sender {
+    self.centerLabel.text = @"Thank you, friend.";
+}
 @end

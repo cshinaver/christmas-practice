@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self.backButton setTitle: @"previous" forState: UIControlStateNormal];
+    [self.backButton setTitle: @"back to picture" forState: UIControlStateNormal];
 
 }
 

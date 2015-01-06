@@ -12,5 +12,7 @@
 @interface SecondViewController : UIViewController
 
 @property Photo *photo;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *barButton;
+
 
 @end

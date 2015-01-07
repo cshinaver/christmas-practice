@@ -13,6 +13,7 @@
 
 @property Photo *photo;
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
+@property (weak, nonatomic) IBOutlet UILabel *photoDescription;
 - (IBAction)goBack:(id)sender;
 
 @end

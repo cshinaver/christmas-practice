@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "Photo.h"
+#import "SecondViewController.h"
 
 @interface ViewController : UIViewController <UITabBarDelegate, UITableViewDataSource>
 
 @property NSArray *photos;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 
 @end

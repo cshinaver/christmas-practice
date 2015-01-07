@@ -12,6 +12,7 @@
 
 @property NSArray *names;
 
+@property (weak, nonatomic) IBOutlet UITableView *leTableView;
 
 
 @end

@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="aNn-ZL-l69">
             <objects>
-                <viewController id="6Bs-o5-ogq" sceneMemberID="viewController">
+                <viewController id="6Bs-o5-ogq" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="z1g-0D-MEw"/>
                         <viewControllerLayoutGuide type="bottom" id="NEt-hD-0rp"/>
@@ -35,6 +35,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="leTableView" destination="aPI-Cm-lC1" id="Xxf-ez-pcs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geZ-qJ-eAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

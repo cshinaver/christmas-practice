@@ -28,10 +28,10 @@
     photo1.label=@"Look, Ariel is a walrus";
     photo2.name=@"Charles";
     photo2.filename=@"charles2";
-    photo2.label=@"Charles is sexy AF";
+    photo2.label=@"It's getting hot in here";
     photo3.name=@"John";
     photo3.filename=@"john2";
-    photo3.label=@"Runway ready";
+    photo3.label=@"Ready for his closeup";
     photo4.name=@"Ryan";
     photo4.filename=@"ryan3";
     photo4.label=@"no description needed";

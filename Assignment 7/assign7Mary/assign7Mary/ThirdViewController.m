@@ -20,7 +20,7 @@
     
     self.photoDescription.text = self.photo.label;
     
-    [self.backButton setTitle: @"back to picture" forState: UIControlStateNormal];
+    [self.backButton setTitle: @"cool" forState: UIControlStateNormal];
 
 }
 
